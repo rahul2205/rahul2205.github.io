@@ -1,0 +1,39 @@
+Class LegCount
+{
+public static void main(string args[])
+{
+int test,i=0,testcat,c,p,l,legcount,m;
+System.out.println("Enter the no. of tests:");
+test=Integer.parseInt(args[0]);
+while(i<test)
+{
+System.out.println("Enter no. of cats,dogs and legs counted");
+int c=Integer.parseInt(args[0]);
+int p=Integer.parseInt(args[0]);
+int l=Integer.parseInt(args[0]);
+
+testcat=c;
+while(testcat>=(c-(p*2)))
+{
+legcount=(p*4)+(testcat*4);
+if(legcount==l)
+{
+System.out.println("YES");
+System.out.println(".");
+}
+
+else
+{
+m=0;
+}
+testcat=testcat-1;
+}
+if(m==0)
+{
+System.out.println("NO");
+}
+i++;
+}
+}
+
+

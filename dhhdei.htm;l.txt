@@ -1,0 +1,12 @@
+<html>
+<head>
+<script>
+var a=78;
+var b=10;
+</script>
+</head>
+<body>
+var o =Boolean(a>b);
+document.write(o);
+</body>
+</html>
